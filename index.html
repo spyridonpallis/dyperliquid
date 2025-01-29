@@ -8,6 +8,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            scroll-behavior: smooth;
         }
 
         body {
@@ -80,6 +81,7 @@
             color: #888;
             text-decoration: none;
             transition: color 0.3s;
+            cursor: pointer;
         }
 
         .nav-link:hover {
@@ -169,6 +171,7 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin: 4rem 0;
+            scroll-margin-top: 80px;
         }
 
         .feature {
@@ -261,10 +264,7 @@
         <div class="nav-container">
             <div class="nav-logo">DYPERLIQUID</div>
             <div class="nav-links">
-                <a href="#" class="nav-link">About</a>
-                <a href="#" class="nav-link">Tokenomics</a>
-                <a href="#" class="nav-link">Community</a>
-                <a href="#" class="nav-link">Docs</a>
+                <a href="#features" class="nav-link">About</a>
             </div>
         </div>
     </nav>
@@ -292,7 +292,7 @@
             </div>
         </div>
 
-        <div class="features">
+        <div id="features" class="features">
             <div class="feature">
                 <h3>Maximum Absorption</h3>
                 <p>Our revolutionary tokenomics ensure maximum liquidity retention with innovative swap mechanics</p>
@@ -309,10 +309,9 @@
 
         <div class="footer">
             <div class="social-links">
-                <a href="#" class="social-link">Twitter</a>
-                <a href="#" class="social-link">Telegram</a>
-                <a href="#" class="social-link">Discord</a>
-                <a href="#" class="social-link">GitHub</a>
+                <a href="https://x.com/dyperliquid" class="social-link">Twitter</a>
+                <a href="https://t.me/+5BMx87gJAF45Njkx" class="social-link">Telegram</a>
+                <a href="https://github.com/spyridonpallis/dyperliquid" class="social-link">GitHub</a>
             </div>
             <p>© 2025 Dyperliquid. All rights absorbed.</p>
         </div>
